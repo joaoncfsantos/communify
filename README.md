@@ -40,6 +40,21 @@ With the right funding we aim to target the growing solar energy market and:
 
 <br>
 
+<h2>Smart Contract Deployment</h2>
+
+The project interacts with the <b>Scroll Testnet</b>. We deployed a NFT smart contract. The contract is live an can be found here: 
+<em>https://blockscout.scroll.io/token/0x659D12B84d7B9E86f454e74771a98F6120cBFD50</em>
+
+As the contract as <b>onlyOwner</b> functions, to test the contract in the scanner, you will have to use the following wallet:
+<p> Address -> 0x072CA6a031E85989F41ada28E385170Ca755D54f </p>
+<p> Private Key -> f2846882e7e17daefeda2f835693c1f0a29aa0cd277cd59c2b431ada5eaa3807 </p>
+
+<br>
+
+<h1> About the front-end </h1>
+
+<p>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
