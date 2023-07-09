@@ -49,7 +49,7 @@ export function Profile() {
         </button>
       ))}
 
-      {error && <div>{error.message}</div>}
+      {/* {error && <div>{error.message}</div>} */}
     </div>
   );
 }
