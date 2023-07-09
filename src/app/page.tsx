@@ -57,7 +57,7 @@ export default function Home() {
     <div className="py-8 px-20">
       <div className="flex justify-between gap-5">
         <h1
-          className="text-3xl font-medium text-[#4ECCA3] cursor-pointer"
+          className="text-xl font-medium text-[#4ECCA3] cursor-pointer"
           onClick={handleShowMain}
         >
           Communify
@@ -117,33 +117,33 @@ export default function Home() {
         <div>
           <div className="flex justify-center">
             <div className="flex flex-col text-center justify-center gap-6 mt-36">
-              <h2 className="text-6xl">
+              <h2 className="text-4xl">
                 Communifying your donations and impact!
               </h2>
-              <h3 className="text-xl font-medium">
+              <h3 className="text-lg font-medium">
                 Why donate alone when you can do it with your community?
               </h3>
             </div>
           </div>
-          <div className="flex flex-col p-12 gap-8 justify-center items-center">
-            <div className="flex gap-12">
-              <OrganizationCard
-                name={orgs[2]?.name}
-                description={orgs[2]?.description}
-                contractAddress={orgs[2]?.contractAddress}
-              />
-              <OrganizationCard
-                name={orgs[13]?.name}
-                description={orgs[13]?.description}
-                contractAddress={orgs[13]?.contractAddress}
-              />
-              <OrganizationCard
-                name={orgs[14]?.name}
-                description={orgs[14]?.description}
-                contractAddress={orgs[14]?.contractAddress}
-              />
-            </div>
+          <div className="flex flex-col p-12 gap-12 justify-center items-center">
+
+            <OrganizationCard
+              name={orgs[2]?.name}
+              description={orgs[2]?.description}
+              contractAddress={orgs[2]?.contractAddress}
+            />
+            <OrganizationCard
+              name={orgs[13]?.name}
+              description={orgs[13]?.description}
+              contractAddress={orgs[13]?.contractAddress}
+            />
+            <OrganizationCard
+              name={orgs[14]?.name}
+              description={orgs[14]?.description}
+              contractAddress={orgs[14]?.contractAddress}
+            />
           </div>
+
         </div>
       )}
     </div>

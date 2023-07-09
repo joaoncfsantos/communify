@@ -28,7 +28,7 @@ export function Profile() {
 
   if (isConnected) {
     return (
-      <button className="btn btn-primary">Disconnect {connector?.name}</button>
+      <button className="btn btn-primary btn-sm">Disconnect {connector?.name}</button>
     );
   }
 
@@ -36,7 +36,7 @@ export function Profile() {
     <div>
       {connectors.map((connector) => (
         <button
-          className="btn btn-primary"
+          className="btn btn-primary btn-sm"
           disabled={!connector.ready}
           key={connector.id}
           onClick={() => connect({ connector })}
