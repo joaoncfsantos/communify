@@ -1,0 +1,7 @@
+ZK_CONTRACT_NAME=QuestNFT \
+ZK_NFT_NAME=QuestNFT \
+ZK_NFT_SYMBOL=QUEST \
+ZK_NFT_BASE_TOKEN_URI="https://localhost:2022/nft/" \
+ZK_NFT_MAXSUPPLY=10000 \
+ZK_PK="7843e4f6a66fa5427a2fdab2051ddedfccf96fb735a7e28c63ca9af78c273c1b" \
+yarn deploy
