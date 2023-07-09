@@ -70,7 +70,6 @@ async def login_metamask(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         "Chose a command to continue:",
         reply_markup=reply_markup
     )
-    webbrowser.open("https://ethbcn-communify.vercel.app/")
 
 def build_menu(buttons, n_cols, header_buttons=None, footer_buttons=None):
     menu = [buttons[i:i + n_cols] for i in range(0, len(buttons), n_cols)]
@@ -130,7 +129,7 @@ async def quest(update, context):
             "Please press the button to open quests",
             reply_markup=ReplyKeyboardMarkup.from_button(
                 KeyboardButton(
-                    text="Login with metamask",
+                    text="Quests",
                     web_app=WebAppInfo(url="https://ethbcn-communify.vercel.app/"),
                 )
             ),
@@ -143,7 +142,7 @@ async def donations(update, context):
             "Please press the button to open donations",
             reply_markup=ReplyKeyboardMarkup.from_button(
                 KeyboardButton(
-                    text="Login with metamask",
+                    text="Donations",
                     web_app=WebAppInfo(url="https://ethbcn-communify.vercel.app/"),
                 )
             ),
