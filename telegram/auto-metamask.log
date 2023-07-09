@@ -1,0 +1,53 @@
+07-08-2023 14:01:20 INFO Application started
+07-08-2023 14:01:33 ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/telegram/ext/_application.py", line 1124, in process_update
+    await coroutine
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/telegram/ext/_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/main.py", line 60, in login
+    auto_metamask.connectWallet()
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/auto_metamask/core.py", line 106, in switch
+    current_handle = driver.current_window_handle
+NameError: name 'driver' is not defined
+07-08-2023 14:01:49 INFO Application is stopping. This might take a moment.
+07-08-2023 14:01:49 INFO Application.stop() complete
+07-08-2023 14:01:50 INFO Application started
+07-08-2023 14:02:07 ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/telegram/ext/_application.py", line 1124, in process_update
+    await coroutine
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/telegram/ext/_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/main.py", line 60, in login
+    auto_metamask.connectWallet()
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/auto_metamask/core.py", line 106, in switch
+    current_handle = driver.current_window_handle
+NameError: name 'driver' is not defined
+07-08-2023 14:02:46 INFO Application is stopping. This might take a moment.
+07-08-2023 14:02:46 INFO Application.stop() complete
+07-08-2023 14:02:51 INFO Application started
+07-08-2023 14:02:55 ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/telegram/ext/_application.py", line 1124, in process_update
+    await coroutine
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/telegram/ext/_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/main.py", line 60, in login
+    auto_metamask.connectWallet()
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/auto_metamask/core.py", line 106, in switch
+    current_handle = driver.current_window_handle
+NameError: name 'driver' is not defined
+07-08-2023 14:03:01 ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/telegram/ext/_application.py", line 1124, in process_update
+    await coroutine
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/telegram/ext/_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/main.py", line 60, in login
+    auto_metamask.connectWallet()
+  File "/Users/bernardoreis/Developer/bcn_hackathon/telegram/.venv/bin/lib/python3.10/site-packages/auto_metamask/core.py", line 106, in switch
+    current_handle = driver.current_window_handle
+NameError: name 'driver' is not defined
+07-08-2023 14:09:22 INFO Application is stopping. This might take a moment.
+07-08-2023 14:09:22 INFO Application.stop() complete
